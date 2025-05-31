@@ -29,7 +29,7 @@ A powerful and flexible network scanning tool written in Python, inspired by Nma
 ### Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/username/NetworkScanner.git
+git clone https://github.com/wsxyanua/NetworkScanner.git
 cd NetworkScanner
 ```
 
