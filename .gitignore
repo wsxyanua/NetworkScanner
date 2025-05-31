@@ -24,12 +24,17 @@ wheels/
 venv/
 ENV/
 env/
+.env/
+.venv/
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
+.project
+.pydevproject
+.settings/
 
 # Output files
 output/
@@ -41,7 +46,16 @@ output/
 
 # Logs
 *.log
+logs/
 
 # System files
 .DS_Store
-Thumbs.db 
+Thumbs.db
+.directory
+desktop.ini
+
+# Personal files
+*.bak
+*.tmp
+*.temp
+*~ 

@@ -1,17 +1,8 @@
-# Advanced Network Scanner
+# Network Scanner
 
 A powerful and flexible network scanning tool written in Python, inspired by Nmap. This tool allows you to perform various types of network reconnaissance and port scanning with ease.
 
-## Description
-
-Advanced Network Scanner is a Python-based network reconnaissance tool that combines the power of multiple scanning techniques with user-friendly features. It provides:
-
-- Fast and efficient port scanning with multiple techniques (SYN, Connect, UDP)
-- Multi-threaded scanning for improved performance
-- Service detection and banner grabbing
-- Multiple output formats (JSON, CSV, TXT)
-- Color-coded results for better readability
-- Comprehensive error handling and logging
+## Features
 
 ### Scanning Capabilities
 - **TCP SYN Scan**: Fast and stealthy port scanning
@@ -33,12 +24,12 @@ Advanced Network Scanner is a Python-based network reconnaissance tool that comb
 - **Error Handling**: Robust error handling and reporting
 - **Verbose Mode**: Detailed output for debugging
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/NetworkScanner.git
+git clone https://github.com/username/NetworkScanner.git
 cd NetworkScanner
 ```
 
@@ -74,7 +65,7 @@ sudo python src/scanner.py -t 192.168.1.1 -p 1-1000 -sU -o results.json -f json
 sudo python src/scanner.py -t 192.168.1.0/24 -p 80,443
 ```
 
-## 📋 Command Line Options
+## Command Line Options
 
 | Option | Description |
 |--------|-------------|
@@ -88,7 +79,7 @@ sudo python src/scanner.py -t 192.168.1.0/24 -p 80,443
 | `-o, --output` | Output file for scan results |
 | `-f, --format` | Output format (json, csv, txt) |
 
-## 📊 Output Formats
+## Output Formats
 
 ### JSON Format
 ```json
@@ -118,7 +109,7 @@ Timestamp: 2024-03-14T12:00:00
 --------------------------------------------------
 ```
 
-## 📁 Project Structure
+## Project Structure
 ```
 NetworkScanner/
 ├── src/
@@ -130,8 +121,6 @@ NetworkScanner/
 │   │   └── __init__.py
 │   ├── scanner.py
 │   └── __init__.py
-├── tests/
-├── docs/
 ├── output/
 ├── requirements.txt
 ├── README.md
@@ -139,20 +128,10 @@ NetworkScanner/
 └── .gitignore
 ```
 
-## 🔒 Security Notice
+## Security Notice
 
 This tool is designed for educational and legitimate network testing purposes only. Always ensure you have proper authorization before scanning any network. Unauthorized scanning may be illegal and unethical.
 
-## 🤝 Contributing
+## License
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Inspired by Nmap
-- Built with Python's powerful networking libraries
-- Thanks to all contributors and users 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
